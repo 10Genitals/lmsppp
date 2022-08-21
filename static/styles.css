@@ -1,0 +1,64 @@
+html {
+    display: block;
+    font-family: Arial;
+}
+
+#main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* <div> Container for the button and links */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+
+    box-shadow: 0px 0px 5px grey;
+    user-select: none;
+    /* cursor: pointer; */
+
+    font-size: 20px;
+}
+
+/* Dropdown button to activate container */
+.dropdown-button {
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    text-align: center;
+}
+
+/* Dropdown links container */
+.dropdown-contents {
+    display: none;      /* 'block' to show */
+    /* margin-top: 3px; */
+    z-index: 1;
+    position: absolute;
+    width: max-content;
+
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px grey;
+}
+
+/* Links inside the Dropwdown container */
+.dropdown-contents a {
+    text-align: left;
+    display: block;
+    padding: 10px;
+
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown:hover .dropdown-contents {
+    display: block;
+}
+
+.dropdown:focus, .dropdown-contents a:hover {
+    background-color: #ddd;
+}
