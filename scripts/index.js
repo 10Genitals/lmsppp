@@ -44,9 +44,9 @@ function createButton(subject)
     {
         const mainLink = document.createElement('a');
         mainLink.innerHTML = '&#x2605; Main';
-        mainLink.setAttribute('href', subject.main);
-        mainLink.setAttribute('target', '_blank');
-        mainLink.setAttribute('class', 'main-page');
+        mainLink.href = subject.main;
+        mainLink.target = '_blank';
+        mainLink.className = 'main-page';
         contents.appendChild(mainLink);
     }
 
@@ -55,8 +55,8 @@ function createButton(subject)
     {
         const anchor = document.createElement('a');
         anchor.innerHTML = link.title;
-        anchor.setAttribute('href', link.url);
-        anchor.setAttribute('target', '_blank');
+        anchor.href = link.url;
+        anchor.target = '_blank';
         contents.appendChild(anchor);
     }
 

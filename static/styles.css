@@ -9,9 +9,24 @@ html {
 }
 
 #links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+}
+
+#navbar {
+    text-align: center;
+    margin: 10px 0;
+
+    font-size: 20px;
+}
+
+#navbar * {
+    margin: 0 5px;
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none;
+}
+
+#navbar *:hover {
+    color: rgba(0, 0, 0, 1);
 }
 
 /* <div> Container for the button and links */
@@ -60,6 +75,7 @@ html {
     color: inherit;
 }
 
+/* Display dropdown menu when hover on dropdown button */
 .dropdown:hover .dropdown-contents {
     display: block;
 }
