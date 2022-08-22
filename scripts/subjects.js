@@ -35,11 +35,6 @@ var subjects = [
             {
                 "title": "Zoom (1Q)",
                 "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1916"
-            },
-
-            {
-                "title": "Drive (1Q)",
-                "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=453"
             }
         ]
     },
@@ -76,13 +71,23 @@ var subjects = [
     {
         "name": "Math",
         "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33",
-        "links": []
+        "links": [
+            {
+                "title": "Zoom",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1135"
+            }
+        ]
     },
 
     {
         "name": "AP",
         "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76",
-        "links": []
+        "links": [
+            {
+                "title": "BBB",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=225"
+            }
+        ]
     },
 
     {
@@ -111,8 +116,6 @@ var subjects = [
 
     {
         "name": "Chapel Service",
-        "main": "#",
         "links": []
     }
-
 ]
