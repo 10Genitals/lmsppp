@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.getElementsByTagName('body')[0];
     body.prepend(createNavBar());
     body.prepend(createHeader());
+    setIcon();
 
     links = undefined;  // this saves memory i think
 });
@@ -22,10 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
 // Create a header that appears at the top of the page
 function createHeader()
 {
-    const h1 = document.createElement('h1');
-    h1.innerHTML = "today will be a good day";
-    h1.style.setProperty('text-align', 'center');
-    return h1;
+    // Create a container for centralizing
+    const div = document.createElement('div');
+    div.style.setProperty('text-align', 'center');
+
+    // Create image
+    const img = document.createElement('img');
+    img.src = './static/prayge.png'
+    img.alt = 'prayge';
+    img.style.width = '64px';
+    img.style.height = '64px';
+
+    // Append to div and return
+    div.appendChild(img);
+    return div;
 }
 
 // Create navigation bar
@@ -50,4 +61,17 @@ function createNavLink(link)
     anchor.href = link.url;
 
     return anchor;
+}
+
+// Set a favicon
+function setIcon()
+{
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link)
+    {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    link.href = './static/prayge.png';
 }
