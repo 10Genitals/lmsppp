@@ -20,7 +20,10 @@ html {
     display: inline-block;
     margin: 5px;
 
-    box-shadow: 0px 0px 5px grey;
+    box-shadow: 0px 0px 5px rgb(170, 170, 170);
+    border: 1px solid grey;
+    border-radius: 3px;
+
     user-select: none;
     /* cursor: pointer; */
 
@@ -30,24 +33,20 @@ html {
 /* Dropdown button to activate container */
 .dropdown-button {
     padding: 7px;
-    border: 1px solid grey;
-    border-radius: 3px;
-
     text-align: center;
 }
 
 /* Dropdown links container */
 .dropdown-contents {
     display: none;      /* 'block' to show */
-    /* margin-top: 3px; */
     z-index: 1;
     position: absolute;
     width: max-content;
 
-    border: 1px solid #000;
+    border: 1px solid grey;
     border-radius: 3px;
     background-color: #fff;
-    box-shadow: 0px 0px 4px grey;
+    box-shadow: 0px 0px 5px grey;
 }
 
 /* Links inside the Dropwdown container */
@@ -67,4 +66,8 @@ html {
 
 .dropdown:focus, .dropdown-contents a:hover {
     background-color: #ddd;
+}
+
+.main-page {
+    border-bottom: 1px solid grey;
 }

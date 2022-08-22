@@ -43,7 +43,7 @@ function createButton(subject)
     if (subject.main)
     {
         const mainLink = document.createElement('a');
-        mainLink.innerHTML = 'Main';
+        mainLink.innerHTML = '&#x2605; Main';
         mainLink.setAttribute('href', subject.main);
         mainLink.setAttribute('target', '_blank');
         mainLink.setAttribute('class', 'main-page');
