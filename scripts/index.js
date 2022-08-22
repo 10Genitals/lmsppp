@@ -12,12 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // Creates buttons and appends to main section
 function initMain()
 {
-    const main = document.getElementById('main');
-
+    const linksSection = document.getElementById('links');
     for (const subject of subjects)
     {
         const button = createButton(subject);
-        main.appendChild(button);
+        linksSection.appendChild(button);
     }
 }
 
@@ -25,20 +24,20 @@ function initMain()
 function createButton(subject)
 {
     // Create container
-    const main = document.createElement('div');
-    main.setAttribute('class', 'dropdown');
-//  main.setAttribute('tabindex', '0');
+    const container = document.createElement('div');
+    container.setAttribute('class', 'dropdown');
+//  container.setAttribute('tabindex', '0');
 
     // Create button
     const button = document.createElement('div');
     button.setAttribute('class', 'dropdown-button');
     button.innerHTML = subject.name;
-    main.appendChild(button)
+    container.appendChild(button)
 
     // Create contents container
     const contents = document.createElement('div');
     contents.setAttribute('class', 'dropdown-contents');
-    main.appendChild(contents);
+    container.appendChild(contents);
 
     // Create main link if provided
     if (subject.main)
@@ -47,6 +46,7 @@ function createButton(subject)
         mainLink.innerHTML = 'Main';
         mainLink.setAttribute('href', subject.main);
         mainLink.setAttribute('target', '_blank');
+        mainLink.setAttribute('class', 'main-page');
         contents.appendChild(mainLink);
     }
 
@@ -61,5 +61,5 @@ function createButton(subject)
     }
 
     // Return button
-    return main;
+    return container;
 }

@@ -8,6 +8,12 @@ html {
     max-width: 800px;
 }
 
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* <div> Container for the button and links */
 .dropdown {
     position: relative;
