@@ -65,5 +65,54 @@ var subjects = [
                 "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1407"
             }
         ]
+    },
+
+    {
+        "name": "Science",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48",
+        "links": []
+    },
+
+    {
+        "name": "Math",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33",
+        "links": []
+    },
+
+    {
+        "name": "AP",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76",
+        "links": []
+    },
+
+    {
+        "name": "Filipino",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=61",
+        "links": []
+    },
+
+    {
+        "name": "ESP",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=108",
+        "links": []
+    },
+
+    {
+        "name": "CL",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91",
+        "links": []
+    },
+
+    {
+        "name": "Homeroom",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=173",
+        "links": []
+    },
+
+    {
+        "name": "Chapel Service",
+        "main": "#",
+        "links": []
     }
+
 ]
