@@ -1,199 +1,69 @@
 var subjects = [
     {
         "name": "Music",
-        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=122#section-4",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url":  "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=2252"
-            },
-
-            {
-                "title": "Zoom",
-                "url":  "https://us02web.zoom.us/j/85224832030"
-            },
-
-            {
-                "title": "Drive (4Q)",
-                "url":  "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=4728"
-            }
-        ]
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=124#section-1",
+        "links": []
     },
 
     {
         "name": "Arts",
-        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=133#section-4",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=2254"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-    {
-        "name": "Arts",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-    {
-        "name": "Arts",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=135#section-1",
+        "links": []
     },
 
     {
         "name": "PE",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=146#section-1",
+        "links": []
+    },
 
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
+    {
+        "name": "Health",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=157#section-1",
+        "links": []
     },
 
     {
         "name": "TLE",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-1",
         "links": [
             {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "BBB (1Q)",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=230"
             },
 
             {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-    {
-        "name": "CL",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "Zoom (1Q)",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1916"
             },
 
             {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-    {
-        "name": "Math",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-    {
-        "name": "Science",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "Drive (1Q)",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=453"
             }
         ]
     },
 
     {
         "name": "English",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
+        // Replace section number later with a section that has works instead,
+        // you will access the links in section 0 in the dropdown menu anyway
+        "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=18#section-0",
         "links": [
             {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "BBB",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=514"
             },
 
             {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
-
-    {
-        "name": "Homeroom",
-        "main": "https://www.youtube.com/watch?v=3Wlp-G-6M14",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "Jitsi",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/jitsi/view.php?id=1020"
             },
 
             {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
+                "title": "Zoom",
+                "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1407"
             }
         ]
-    },
-
-    {
-        "name": "Chapel Service",
-        "links": [
-            {
-                "title": "BBB (4Q)",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            },
-
-            {
-                "title": "youtub",
-                "url": "https://www.youtube.com/watch?v=3Wlp-G-6M14"
-            }
-        ]
-    },
-
+    }
 ]
