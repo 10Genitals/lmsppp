@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LMS+++: Schedule</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./static/styles.css">
+
+        <!-- Prerequisites -->
+        <script type="text/javascript" src="./scripts/main.js"></script>
+
+        <!-- Page Scripts -->
+        <script type="text/javascript" src="./scripts/schedule.js"></script>
+    </head>
+    <body>
+        <section id="main">
+            <!-- Header -->
+            <div id="header" style="text-align: center;">
+                <!-- Dropdown button to switch tables -->
+                <div class="dropdown">
+                    <div class="dropdown-button">Modality</div>
+                    <div class="dropdown-contents">
+                        <div onclick="toggleModality(0);">Hybrid</div>
+                        <div onclick="toggleModality(1);">Blended</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table Section -->
+            <div id="tables" style="text-align: center;">
+                <!-- Hybrid Schedule Table -->
+                <img id="hybrid" style="width: 800px" src="https://cdn.discordapp.com/attachments/632127463396212736/1011116229815193640/received_448924720509134.jpeg">
+
+                <!-- Blended Schedule Table -->
+                <img id="blended" style="width: 800px" src="https://cdn.discordapp.com/attachments/701413172996866100/1011469868706562098/unknown.png">
+            </div>
+        </section>
+    </body>
+</html>

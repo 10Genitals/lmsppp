@@ -64,8 +64,8 @@ html {
     box-shadow: 0px 0px 5px grey;
 }
 
-/* Links inside the Dropwdown container */
-.dropdown-contents a {
+/* Items inside the Dropwdown container */
+.dropdown-contents * {
     text-align: left;
     display: block;
     padding: 10px;
@@ -80,7 +80,7 @@ html {
     display: block;
 }
 
-.dropdown:focus, .dropdown-contents a:hover {
+.dropdown:focus, .dropdown-contents *:hover {
     background-color: #ddd;
 }
 

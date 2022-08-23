@@ -5,6 +5,11 @@ var links = [
     },
 
     {
+        "title": "Schedule",
+        "url":   "./schedule.html"
+    },
+
+    {
         "title": "LMS",
         "url":   "https://ljcsi.obbserver.com/lms/my/"
     },
