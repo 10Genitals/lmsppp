@@ -12,9 +12,9 @@
         <script type="text/javascript" src="./scripts/schedule.js"></script>
     </head>
     <body>
-        <section id="main">
+        <section id="main" style="max-width: 1000px">
             <!-- Header -->
-            <div id="header" style="text-align: center;">
+            <div style="text-align: center;">
                 <!-- Dropdown button to switch tables -->
                 <div class="dropdown">
                     <div class="dropdown-button">Modality</div>
@@ -26,12 +26,234 @@
             </div>
 
             <!-- Table Section -->
-            <div id="tables" style="text-align: center;">
+            <div style="margin: 0 auto; max-width: fit-content;">
                 <!-- Hybrid Schedule Table -->
-                <img id="hybrid" style="width: 800px" src="https://cdn.discordapp.com/attachments/632127463396212736/1011116229815193640/received_448924720509134.jpeg">
+                <img id="hybrid" style="display: none; width: 800px;" src="https://cdn.discordapp.com/attachments/632127463396212736/1011116229815193640/received_448924720509134.jpeg">
 
                 <!-- Blended Schedule Table -->
-                <img id="blended" style="width: 800px" src="https://cdn.discordapp.com/attachments/701413172996866100/1011469868706562098/unknown.png">
+                <!-- <img id="blended" style="display: none; width: 800px;" src="https://cdn.discordapp.com/attachments/701413172996866100/1011469868706562098/unknown.png"> -->
+                <table id="blended" style="display: none;">
+                    <tr>
+                        <th colspan="7">Blended Class Schedule</th>
+                    </tr>
+
+                    <!-- Synchronous / Asynchronous -->
+                    <tr>
+                        <td></td>
+                        <td>Synchronous</td>
+                        <td>Asynchronous</td>
+                        <td>Asynchronous</td>
+                        <td></td>
+                        <td>Synchronous</td>
+                        <td>Synchronous</td>
+                    </tr>
+
+                    <!-- Time and Day(Week) -->
+                    <tr>
+                        <td>[Time]</td>
+                        <td>Monday</td>
+                        <td>Tuesday</td>
+                        <td>Wednesday</td>
+                        <td>[Time]</td>
+                        <td>Thursday</td>
+                        <td>Friday</td>
+                    </tr>
+
+                    <!-- Activities -->
+                    <tr>
+                        <td>6:45 - 7:00 AM</td>
+                        <td colspan="3">Flag Ceremony (?)</td>
+
+                        <td colspan="3">no more flag ceremony (?)</td>
+                    </tr>
+
+                    <tr>
+                        <td>7:00 - 7:50 AM</td>
+                        <td>Music | Arts
+                            Sir Amiel
+                        </td>
+                        <td>Music | Arts
+                            Sir Amiel
+                        </td>
+                        <td>PE | Health
+                            Sir Amiel
+                        </td>
+
+                        <td>1:00 - 1:40 PM</td>
+                        <td>PE | Health
+                            Sir Amiel
+                        </td>
+                        <td>Music | Arts
+                            Sir Amiel
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>7:50 - 8:40 AM</td>
+                        <td>ESP
+                            Sir Erwin
+                        </td>
+                        <td>AP
+                            Sir Henry
+                        </td>
+                        <td>AP
+                            Sir Henry
+                        </td>
+
+                        <td>1:40 - 2:20 PM</td>
+                        <td>ESP
+                            Sir Erwin
+                        </td>
+                        <td>AP
+                            Sir Henry
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>8:40 - 9:30 AM</td>
+                        <td>TLE
+                            Ms. Winnie
+                        </td>
+                        <td>TLE
+                            Ms. Winnie
+                        </td>
+                        <td>TLE
+                            Ms. Winnie
+                        </td>
+
+                        <td>2:20 - 3:00 PM</td>
+                        <td>TLE
+                            Ms. Winnie
+                        </td>
+                        <td>TLE
+                            Ms. Winnie
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>9:30 - 10:20 AM</td>
+                        <td>Science
+                            Ms. Noemi
+                        </td>
+                        <td>Science
+                            Ms. Noemi
+                        </td>
+                        <td>Science
+                            Ms. Noemi
+                        </td>
+
+                        <td>3:00 - 3:40 PM</td>
+                        <td>Science
+                            Ms. Noemi
+                        </td>
+                        <td>Science
+                            Ms. Noemi
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>10:20 - 10:35 AM</td>
+                        <td colspan="3">Break</td>
+
+                        <td>3:40 - 3:55 PM</td>
+                        <td colspan="2">Break</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:35 - 11:25 AM</td>
+                        <td>English
+                            Ms. Abby
+                        </td>
+                        <td>English
+                            Ms. Abby
+                        </td>
+                        <td>English
+                            Ms. Abby
+                        </td>
+
+                        <td>3:55 - 4:35 PM</td>
+                        <td>English
+                            Ms. Abby
+                        </td>
+                        <td>English
+                            Ms. Abby
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>11:25 AM - 12:15 PM</td>
+                        <td>Chapel Service
+                            Ptr. Arnel
+                        </td>
+                        <td>Math
+                            Ms. Julie
+                        </td>
+                        <td>Math
+                            Ms. Julie
+                        </td>
+
+                        <td>4:35 - 5:15 PM</td>
+                        <td>Math
+                            Ms. Julie
+                        </td>
+                        <td>Math
+                            Ms. Julie
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>12:15 - 12:45 PM</td>
+                        <td colspan="3">Lunch Break</td>
+
+                        <td colspan="3">no lunch break here sadge</td>
+                    </tr>
+
+                    <tr>
+                        <td>12:45 - 1:35 PM</td>
+                        <td>Filipino
+                            Sir Raymart
+                        </td>
+                        <td>Filipino
+                            Sir Raymart
+                        </td>
+                        <td>Filipino
+                            Sir Raymart
+                        </td>
+
+                        <td>5:15 - 5:55 PM</td>
+                        <td>Filipino
+                            Sir Raymart
+                        </td>
+                        <td>Filipino
+                            Sir Raymart
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>1:35 PM - 2:25 PM</td>
+                        <td>CL
+                            Sir Erwin
+                        </td>
+                        <td>CL
+                            Sir Erwin
+                        </td>
+                        <td></td>
+
+                        <td>???</td>
+                        <td></td>
+                        <td>Homeroom
+                            Sir Erwin
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>2:25 PM</td>
+                        <td colspan="3">Dismissal</td>
+
+                        <td>~5:55 PM</td>
+                        <td colspan="2">Dismissal</td>
+                    </tr>
+                </table>
             </div>
         </section>
     </body>

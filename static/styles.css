@@ -87,3 +87,15 @@ html {
 .main-page {
     border-bottom: 1px solid grey;
 }
+
+/* Tables for Schedule page */
+table {
+    text-align: center;
+    border-collapse: collapse;
+    white-space: pre-line;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
