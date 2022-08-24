@@ -71,12 +71,17 @@ function createNavLink(link)
 // Set a favicon
 function setIcon()
 {
+    // Check if link tag exists
     var link = document.querySelector("link[rel~='icon']");
+
+    // Create if not
     if (!link)
     {
         link = document.createElement('link');
         link.rel = 'icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    link.href = './static/prayge.png';
+
+    // Set favicon
+    link.href = './static/favicon.ico';
 }
