@@ -63,8 +63,23 @@
 
         {
             "name": "Science",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48",
-            "links": []
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-1",
+            "links": [
+                {
+                    "title": "BBB (1Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=310"
+                },
+
+                {
+                    "title": "Jitsi",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/jitsi/view.php?id=1046"
+                },
+
+                {
+                    "title": "Drive (1Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=441"
+                }
+            ]
         },
 
         {
