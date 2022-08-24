@@ -1,16 +1,15 @@
 // Extends index.html
 
-/* var subject = ... in subject.js */
-
 // Executed when page loads
 document.addEventListener('DOMContentLoaded', () => {
-    initMain();
-    subjects = undefined;    // this saves memory i think
+    fetch('./data/subjects.json')
+        .then((response) => response.json())
+        .then((json) => initMain(json.subjects));
 });
 
 
 // Creates buttons and appends to main section
-function initMain()
+function initMain(subjects)
 {
     const linksSection = document.getElementById('links');
     for (const subject of subjects)
