@@ -1,13 +1,13 @@
 /*
  * General table styles
  * Background colors placed at the end
- * due to priority
+ * due to order
  */
 
 :root {
     --sync-color:  #e06666;
     --async-color: #6d9eeb;
-    --onsite-color:green; /* temp color */
+    --onsite-color:#6aa84f;
     --bg-color:    #b7b7b7;
     --bg-color-alt:#999999;
 }
@@ -20,40 +20,58 @@ th, td {
     border: none;
 }
 
+
 /*
- * Blended table's specific styles
+ * Mode columns
  */
 
-/* Synchronous subject columns */
+ /* Synchronous subject columns */
 #blended tr td:nth-child(2),
 #blended tr td:nth-child(6),
-#blended tr td:nth-child(7) {
+#blended tr td:nth-child(7),
+
+#hybrid tr td:nth-child(2) {
     background-color: var(--sync-color);
 }
 
 /* Asynchronous subject columns */
 #blended tr td:nth-child(3),
-#blended tr td:nth-child(4) {
+#blended tr td:nth-child(4),
+
+#hybrid tr td:nth-child(6) {
     background-color: var(--async-color);
+}
+
+/* Onsite subject columns */
+#hybrid tr td:nth-child(3),
+#hybrid tr td:nth-child(4),
+#hybrid tr td:nth-child(5) {
+    background-color: var(--onsite-color);
 }
 
 
 /*
- * Table background colors
-*/
+ * Default table background colors
+ */
 
 /* Normal color */
 table tr:nth-child(even),
-/* these rows just need to be this color */
+
+/* these specific rows just need to be this color */
 #blended tr:nth-child(4) td,
-#blended tr:nth-child(12) td {
+#blended tr:nth-child(12) td,
+#hybrid tr:nth-child(4) td,
+#hybrid tr:nth-child(12) td {
     background-color: var(--bg-color);
 }
 
 /* Alternate normal color */
 table tr:nth-child(odd),
-/* these rows just need to be this color */
+
+/* these specific rows just need to be this color */
 #blended tr:nth-child(9) td,
-#blended tr:nth-child(15) td {
+#blended tr:nth-child(15) td,
+#hybrid tr:nth-child(9) td,
+#hybrid tr:nth-child(15) td {
     background-color: var(--bg-color-alt);
 }
