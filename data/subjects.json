@@ -3,13 +3,23 @@
         {
             "name": "Music",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=124#section-1",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=5770"
+                }
+            ]
         },
 
         {
             "name": "Arts",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=135#section-1",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=602"
+                }
+            ]
         },
 
         {
@@ -82,8 +92,13 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33",
             "links": [
                 {
-                    "title": "Zoom",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1135"
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=657"
+                },
+
+                {
+                    "title": "Drive",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=278"
                 }
             ]
         },
@@ -107,19 +122,34 @@
         {
             "name": "Filipino",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=61",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=519"
+                }
+            ]
         },
 
         {
             "name": "ESP",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=108",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=869"
+                }
+            ]
         },
 
         {
             "name": "CL",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91",
-            "links": []
+            "links": [
+                {
+                    "title": "Zoom",
+                    "url":   "https://us02web.zoom.us/j/88004945664"
+                }
+            ]
         },
 
         {
@@ -130,7 +160,12 @@
 
         {
             "name": "Chapel Service",
-            "links": []
+            "links": [
+                {
+                    "title": "Zoom",
+                    "url":   "https://us02web.zoom.us/j/88160365726"
+                }
+            ]
         }
     ]
 }
