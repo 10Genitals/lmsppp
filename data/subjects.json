@@ -7,6 +7,11 @@
                 {
                     "title": "BBB",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=5770"
+                },
+
+                {
+                    "title": "Drive",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=601"
                 }
             ]
         },
@@ -18,6 +23,11 @@
                 {
                     "title": "BBB",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=602"
+                },
+
+                {
+                    "title": "Drive",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=601"
                 }
             ]
         },
@@ -25,13 +35,33 @@
         {
             "name": "PE",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=146#section-1",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=363"
+                },
+
+                {
+                    "title": "Drive",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=601"
+                }
+            ]
         },
 
         {
             "name": "Health",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=157#section-1",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=605"
+                },
+
+                {
+                    "title": "Drive",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=601"
+                }
+            ]
         },
 
         {
