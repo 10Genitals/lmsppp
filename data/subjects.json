@@ -180,8 +180,13 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=108",
             "links": [
                 {
-                    "title": "BBB",
+                    "title": "BBB (1Q)",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=869"
+                },
+
+                {
+                    "title":  "Drive (1Q)",
+                    "url":    "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=6244"
                 }
             ]
         },
@@ -205,7 +210,12 @@
         {
             "name": "Homeroom",
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=173",
-            "links": []
+            "links": [
+                {
+                    "title": "BBB (1Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=535"
+                }
+            ]
         },
 
         {
