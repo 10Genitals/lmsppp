@@ -29,6 +29,8 @@ th, td {
 #blended tr td:nth-child(2),
 #blended tr td:nth-child(6),
 
+#blended tr:nth-child(8) td:nth-child(3),
+
 #hybrid tr td:nth-child(2) {
     background-color: var(--sync-color);
 }

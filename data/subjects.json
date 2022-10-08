@@ -76,6 +76,11 @@
                 {
                     "title": "Zoom (1Q)",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1916"
+                },
+
+                {
+                    "title": "Messenger",
+                    "url":   "https://www.messenger.com/t/100040532401909"
                 }
             ]
         },
@@ -196,8 +201,8 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91",
             "links": [
                 {
-                    "title": "Zoom",
-                    "url":   "https://us02web.zoom.us/j/88004945664"
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=865"
                 },
 
                 {
