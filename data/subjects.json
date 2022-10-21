@@ -137,6 +137,11 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33",
             "links": [
                 {
+                    "title": "BBB",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=657"
+                },
+
+                {
                     "title": "Zoom",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=5977"
                 },
