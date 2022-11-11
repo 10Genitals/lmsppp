@@ -113,7 +113,7 @@
 
         {
             "name": "Science",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-1",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-2",
             "links": [
                 {
                     "title": "BBB (1Q)",
@@ -134,7 +134,7 @@
 
         {
             "name": "Math",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33#section-2",
             "links": [
                 {
                     "title": "BBB",
@@ -155,7 +155,7 @@
 
         {
             "name": "AP",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76#section-1",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76#section-2",
             "links": [
                 {
                     "title": "BBB",
