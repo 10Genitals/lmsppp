@@ -69,12 +69,12 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-1",
             "links": [
                 {
-                    "title": "BBB (1Q)",
+                    "title": "BBB",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=230"
                 },
 
                 {
-                    "title": "Zoom (1Q)",
+                    "title": "Zoom",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=1916"
                 },
 
@@ -95,8 +95,8 @@
                 },
 
                 {
-                    "title": "Drive (1Q)",
-                    "url":   "https://drive.google.com/drive/folders/1V7UqVtJy03z0iHFZ60Jl76A0m5lfZJjT?usp=sharing"
+                    "title": "Drive (2Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=2185"
                 },
 
                 {
@@ -116,8 +116,8 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-2",
             "links": [
                 {
-                    "title": "BBB (1Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=5814"
+                    "title": "BBB (2Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=2066"
                 },
 
                 {
@@ -203,11 +203,11 @@
 
         {
             "name": "CL",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91#section-2",
             "links": [
                 {
                     "title": "BBB",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=865"
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=6703"
                 },
 
                 {
