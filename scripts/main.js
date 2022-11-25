@@ -18,8 +18,8 @@ const links = [
 const footer          = "If there are incorrect, missing, or outdated info/links, please contact audr.";
 const icon            = './static/favicon.ico';
 const headerImg       = './static/prayge.png';
-const lastCommitBadge = 'https://badgen.net/github/last-commit/10genitals/lmsppp/';
 const repositoryURL   = 'https://github.com/10Genitals/lmsppp/';
+var lastCommitBadge   = 'https://badgen.net/github/last-commit/10genitals/lmsppp/';
 
 // Executed when page loads
 document.addEventListener('DOMContentLoaded', () => {
@@ -88,6 +88,26 @@ function createFooter()
 function createLCBadge()
 {
     const img = document.createElement('img')
+
+    // We capitalize letters in the badge url randomly to force badgen.net to 
+    // generate a new badge nearly every time someone opens this website,
+    // because it takes a while for them to generate a new badge so the badge
+    // will be stuck and outdated. Though it's only useful when it's only
+    // been minutes since the last commit, so it might not be worth it.
+    // i sure do hope they dont ban my repository for this
+    const min = 40;
+    const max = 55;
+    const amount = rng(1, max - min + 1);
+
+    // Capitalize random letters in the owner and repo part
+    for (let i = 0; i < amount; i++)
+    {
+        const index = rng(min, max);
+        lastCommitBadge = lastCommitBadge.slice(0, index) + lastCommitBadge[index].toUpperCase() + lastCommitBadge.slice(index + 1);
+        // why the fk is javascript like this
+        // why couldnt i just lastCommitBadge[index] = lastCommitBadge.toUpperCase()
+        // or even lastCommitBadge[index].toUpperCase()
+    }
     img.src = lastCommitBadge;
 
     const anchor = document.createElement('a');
@@ -117,4 +137,10 @@ function setIcon()
 
     // Set favicon
     link.href = icon;
+}
+
+// Returns random number between min and max inclusive
+function rng(min, max)
+{
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
