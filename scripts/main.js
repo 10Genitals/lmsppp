@@ -1,7 +1,7 @@
 const links = [
     {
         "title": "Home",
-        "url":   "./index.html"
+        "url":   "."
     },
 
     {
@@ -105,7 +105,7 @@ function createLCBadge()
         const index = rng(min, max);
         lastCommitBadge = lastCommitBadge.slice(0, index) + lastCommitBadge[index].toUpperCase() + lastCommitBadge.slice(index + 1);
         // why the fk is javascript like this
-        // why couldnt i just lastCommitBadge[index] = lastCommitBadge.toUpperCase()
+        // why couldnt i just lastCommitBadge[index] = lastCommitBadge[index].toUpperCase()
         // or even lastCommitBadge[index].toUpperCase()
     }
     img.src = lastCommitBadge;
