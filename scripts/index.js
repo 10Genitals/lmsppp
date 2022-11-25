@@ -1,6 +1,7 @@
 // Extends index.html
-
 // Executed when page loads
+
+// idk wtf this is but it gets data as object from data/subjects.json
 document.addEventListener('DOMContentLoaded', () => {
     fetch('./data/subjects.json')
         .then((response) => response.json())

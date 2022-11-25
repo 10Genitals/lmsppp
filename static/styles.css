@@ -3,9 +3,22 @@ html {
     font-family: Arial;
 }
 
+
+/* basic classes */
+.center {
+    text-align: center;
+}
+
+
+/* Page Structure */
 #main {
     margin: 0 auto;
     max-width: 800px;
+}
+
+#footer {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 #links {
@@ -14,7 +27,7 @@ html {
 
 #navbar {
     text-align: center;
-    margin: 10px 0;
+    margin: 5px 0 10px;
 
     font-size: 20px;
 }
@@ -28,6 +41,7 @@ html {
 #navbar *:hover {
     color: rgba(0, 0, 0, 1);
 }
+
 
 /* <div> Container for the button and links */
 .dropdown {

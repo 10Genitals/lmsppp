@@ -1,4 +1,4 @@
-var links = [
+const links = [
     {
         "title": "Home",
         "url":   "./index.html"
@@ -15,14 +15,20 @@ var links = [
     },
 ];
 
+const footer          = "If there are incorrect, missing, or outdated info/links, please contact audr.";
+const icon            = './static/favicon.ico';
+const headerImg       = './static/prayge.png';
+const lastCommitBadge = 'https://badgen.net/github/last-commit/10genitals/lmsppp/';
+const repositoryURL   = 'https://github.com/10Genitals/lmsppp/';
+
 // Executed when page loads
 document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     body.prepend(createNavBar());
+    body.prepend(createLCBadge());
     body.prepend(createHeader());
+    body.append(createFooter());
     setIcon();
-
-    links = undefined;  // this saves memory i think
 });
 
 // Create a header that appears at the top of the page
@@ -30,12 +36,11 @@ function createHeader()
 {
     // Create a container for centralizing
     const div = document.createElement('div');
-    div.style.setProperty('text-align', 'center');
+    div.classList.add('center')
 
     // Create image
     const img = document.createElement('img');
-    img.src = './static/prayge.png'
-    img.alt = 'prayge';
+    img.src = headerImg;
     img.style.width = '64px';
     img.style.height = '64px';
 
@@ -68,6 +73,34 @@ function createNavLink(link)
     return anchor;
 }
 
+// idk man
+function createFooter()
+{
+    const div = document.createElement('div');
+    div.innerHTML = footer;
+    div.classList.add('center')
+    div.id = 'footer'
+
+    return div;
+}
+
+// Creates an iframe to display last commit badge of this repository
+function createLCBadge()
+{
+    const img = document.createElement('img')
+    img.src = lastCommitBadge;
+
+    const anchor = document.createElement('a');
+    anchor.appendChild(img);
+    anchor.href = repositoryURL + 'commits/master/';
+
+    const div = document.createElement('div');
+    div.appendChild(anchor);
+    div.classList.add('center');
+
+    return div;
+}
+
 // Set a favicon
 function setIcon()
 {
@@ -83,5 +116,5 @@ function setIcon()
     }
 
     // Set favicon
-    link.href = './static/favicon.ico';
+    link.href = icon;
 }
