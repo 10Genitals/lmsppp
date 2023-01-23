@@ -2,7 +2,7 @@
     "subjects": [
         {
             "name": "Music",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=124#section-1",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=124",
             "links": [
                 {
                     "title": "BBB",
@@ -66,7 +66,7 @@
 
         {
             "name": "TLE",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-1",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-3",
             "links": [
                 {
                     "title": "BBB",
@@ -87,7 +87,7 @@
 
         {
             "name": "English",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=18#section-0",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=18#section-3",
             "links": [
                 {
                     "title": "BBB",
@@ -113,11 +113,11 @@
 
         {
             "name": "Science",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-2",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-3",
             "links": [
                 {
-                    "title": "BBB (2Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=2066"
+                    "title": "BBB (3Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=3495"
                 },
 
                 {
@@ -134,13 +134,8 @@
 
         {
             "name": "Math",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33#section-2",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33#section-3",
             "links": [
-                {
-                    "title": "BBB",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=657"
-                },
-
                 {
                     "title": "Zoom",
                     "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=5977"
@@ -155,7 +150,7 @@
 
         {
             "name": "AP",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76#section-2",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=76#section-3",
             "links": [
                 {
                     "title": "BBB",
@@ -187,7 +182,7 @@
 
         {
             "name": "ESP",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=108",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=108#section-3",
             "links": [
                 {
                     "title": "BBB (1Q)",
@@ -203,7 +198,7 @@
 
         {
             "name": "CL",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91#section-2",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91#section-3",
             "links": [
                 {
                     "title": "BBB",

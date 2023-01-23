@@ -84,7 +84,7 @@ function createFooter()
     return div;
 }
 
-// Creates an iframe to display last commit badge of this repository
+// Creates a div to display last commit badge of this repository
 function createLCB()
 {
     const img = document.createElement('img')
@@ -122,5 +122,5 @@ function setIcon()
 // Returns random number between min and max inclusive
 function rng(min, max)
 {
-    return Math.floor(Math.random() * (max - min + 1) ) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
