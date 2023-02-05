@@ -201,13 +201,13 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91#section-3",
             "links": [
                 {
-                    "title": "BBB",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=6703"
+                    "title": "BBB (3Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=7169"
                 },
 
                 {
-                    "title": "Drive",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=6017"
+                    "title": "Drive (3Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=7170"
                 }
             ]
         },
