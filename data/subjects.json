@@ -66,7 +66,7 @@
 
         {
             "name": "TLE",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-3",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=113#section-4",
             "links": [
                 {
                     "title": "BBB",
@@ -108,11 +108,11 @@
 
         {
             "name": "Science",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-3",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=48#section-4",
             "links": [
                 {
-                    "title": "BBB (3Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=3495"
+                    "title": "BBB (4Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=4791"
                 },
 
                 {
@@ -129,7 +129,7 @@
 
         {
             "name": "Math",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33#section-3",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=33#section-4",
             "links": [
                 {
                     "title": "Zoom",
