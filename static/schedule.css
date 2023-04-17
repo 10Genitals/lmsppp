@@ -29,6 +29,10 @@ th, td {
 #blended tr td:nth-child(2),
 #blended tr td:nth-child(6),
 
+/*
+ Optional Math online class with T. Julie every Tuesday
+ (not sure if this is still on going) 
+*/
 #blended tr:nth-child(8) td:nth-child(3),
 
 #hybrid tr td:nth-child(2) {
@@ -39,6 +43,9 @@ th, td {
 #blended tr td:nth-child(3),
 #blended tr td:nth-child(4),
 #blended tr td:nth-child(5),
+
+/* Hybrid students don't need to attend T. Zheann's TLE online classes */
+#hybrid tr:nth-child(7) td:nth-child(2),
 
 #hybrid tr td:nth-child(6) {
     background-color: var(--async-color);
