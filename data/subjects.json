@@ -196,13 +196,13 @@
             "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=91#section-3",
             "links": [
                 {
-                    "title": "BBB (3Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=7169"
+                    "title": "BBB (4Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/bigbluebuttonbn/view.php?id=7584"
                 },
 
                 {
-                    "title": "Drive (3Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=7170"
+                    "title": "Drive (4Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=7585"
                 }
             ]
         },
