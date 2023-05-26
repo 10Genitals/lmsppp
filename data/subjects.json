@@ -87,7 +87,7 @@
 
         {
             "name": "English",
-            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=18#section-3",
+            "main": "https://ljcsi.obbserver.com/lms/course/view.php?id=18#section-1",
             "links": [
                 {
                     "title": "BBB",
@@ -95,8 +95,8 @@
                 },
 
                 {
-                    "title": "Drive (3Q)",
-                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=3453"
+                    "title": "Drive (4Q)",
+                    "url":   "https://ljcsi.obbserver.com/lms/mod/url/view.php?id=4825"
                 },
 
                 {
