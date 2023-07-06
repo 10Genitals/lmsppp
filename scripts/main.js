@@ -15,7 +15,7 @@ const LINKS = [
     },
 ];
 
-const FOOTER         = "If there are incorrect, missing, or outdated info/links, please contact audr.";
+const FOOTER         = "Congratulations everyone. GGWP.<br>━ audr";
 const ICON_URL       = './static/favicon.ico';
 const HEADER_IMG     = './static/prayge.png';
 const REPOSITORY_URL = 'https://github.com/10Genitals/lmsppp/';
